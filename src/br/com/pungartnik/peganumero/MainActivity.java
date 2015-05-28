@@ -86,7 +86,7 @@ public class MainActivity extends ActionBarActivity {
 			break;
 
 		case TelephonyManager.NETWORK_TYPE_EVDO_B: //	Current network is EVDO revision B
-			strNetType = "NETWORK_TYPE_EVDO_";
+			strNetType = "NETWORK_TYPE_EVDO_B";
 			break;
 
 		case TelephonyManager.NETWORK_TYPE_GPRS: //	Current network is GPRS
@@ -102,7 +102,7 @@ public class MainActivity extends ActionBarActivity {
 			break;
 
 		case TelephonyManager.NETWORK_TYPE_HSPAP: //	Current network is HSPA+
-			strNetType = "";
+			strNetType = "NETWORK_TYPE_HSPAP";
 			break;
 
 		case TelephonyManager.NETWORK_TYPE_HSUPA: //	Current network is HSUPA
